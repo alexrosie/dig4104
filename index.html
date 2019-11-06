@@ -1,62 +1,148 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <title>Freedom Ride</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Original CSS -->
   <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito+Sans&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/cbb868d5b2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <!--placing the navbar in a container centers it on the page with padding on each side-->
   <div class="jumbotron">
+    <img id="logo" class="mx-auto d-block" src="images/frlogo.png" alt="freedom ride logo">
   </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="events.html">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="volunteer.html">Volunteer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="donate.html">Donate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ride.html">Ride</a>
-              </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="volunteer.html">Volunteer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="donate.html">Donate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ride.html">Ride</a>
+        </li>
 
-            </ul>
+      </ul>
+
+    </div>
+  </nav>
+  <main role="main" class="flex-shrink-0">
+    <div class="container py-5">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-md text-center">
+          <p>Welcome to Freedom Ride, a non-profit 501(c)3 volunteer-based organization built on the conviction that we are not bound by our physical limitations. Freedom Ride is dedicated to enriching the lives and experiences of children and
+            adults with disabilities through <a href="ride.html">therapeutic horseback riding</a> with the generous help of our <a href="volunteer.html">volunteers</a>.</p>
+        </div>
+        <div class="col-md text-center">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/64533545?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
+              allowfullscreen></iframe></div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+          <p><a href="https://vimeo.com/64533545">FREEDOM RIDE</a> from <a href="https://vimeo.com/chuckman">Chuck Green</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container p-5">
+      <div class="row">
+        <p>We’re moving! Freedom Ride is excited to announce we are moving to a new location less than 3 miles from our current location! We have located a tranquil property with twice as much acreage.</p>
+      </div>
+
+    </div>
+  </main>
+  <div class="container-fluid map">
+    <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=freedom%20ride&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <div class="container contact-us">
+        <div class="row justify-content-around align-items-center">
+          <div class="col text-center">
+            <h3>Contact Us</h3>
+          </div>
+          <div class="col text-center">
+            <a href="https://www.facebook.com/freedom.ride.inc" target="_blank" class="icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/FreedomRideInc" target="_blank" class="icon"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/freedomrideinc/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
 
           </div>
-        </nav>
-        <main role="main" class="flex-shrink-0">
-          <div class="container">
-          </main>
-
-        <footer class="footer mt-auto py-3">
-          <div class="container">
-            Footer content here
+        </div>
+        <div class="row justify-content-around align-items-center">
+          <div class="col">
+            <div class="row">
+              <div class="col text-center contact-card">
+                <p>For Therapeutic Riding:<br>
+                  Contact Karen Boebinger<br>
+                  <a href="mailto:karenb@freedomride.com">karenb@freedomride.com</a>
+                </p>
+              </div>
+              <div class="col text-center contact-card">
+                <p>For Equine Assisted Learning:<br>
+                  Contact Farrah Abu-Hijleh<br>
+                  <a href="mailto:farrah@freedomride.com">farrah@freedomride.com</a>
+                </p>
+              </div>
+              <div class="col text-center contact-card">
+                <p>For Volunteering:<br>
+                  <a href="mailto:volunteerinfo@freedomride.com">volunteerinfo@freedomride.com</a>
+                </p>
+              </div>
+              <div class="col text-center contact-card">
+                <p>For General Inquiries:<br>
+                  Contact Liz Lepore<br>
+                  <a href="mailto:liz@freedomride.com">liz@freedomride.com</a>
+                </p>
+              </div>
+            </div>
           </div>
-        </footer>
 
-       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <div class="col text-center contact-card">
+            <p>1905 Lee Road<br>
+              Orlando, Florida 32810<br>
+              Phone 407.293.0411<br>
+              Fax 407-293-6280<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row copyright text-center small px-4 pt-4">
+        <p>FREEDOM RIDE IS A 501&copy;3 NON-PROFIT ORGANIZATION. REGISTRATION NUMBER CH12834. A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE, 1-800-435-7352
+          WITHIN THE STATE OF FLORIDA. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </body>
+
 </html>
