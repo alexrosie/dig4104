@@ -5,6 +5,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Josefin Sans', sans-serif;
+  padding: 5px 0;
 }
 
 .jumbotron {
@@ -16,7 +17,7 @@ h1, h2, h3, h4 {
 .nav-item {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2em;
-  padding: 0 10px;
+  padding: 0 25px;
 }
 
 #logo {
@@ -58,6 +59,11 @@ a:hover {
 .form-control:focus {
   border: solid 2px #36648B;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(84, 123, 155);
+}
+
+.register-forms{
+  list-style: none;
+  padding: 0;
 }
 
 .btn-primary {
