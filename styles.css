@@ -1,5 +1,6 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.1em;
 }
 
 h1, h2, h3, h4 {
@@ -52,6 +53,20 @@ h1, h2, h3, h4 {
 a:hover {
   color: #8B9956;
   text-decoration: none;
+}
+
+.form-control:focus {
+  border: solid 2px #36648B;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(84, 123, 155);
+}
+
+.btn-primary {
+  background-color: #8B9956;
+  border: 0 none;
+}
+
+.btn-primary:hover {
+  background-color: #B9C46E;
 }
 
 .map {
