@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5 {
   margin: 10px;
 }
 
+.contact-card {
+  border: solid 1px white;
+}
+
 .session-cal {
   background-color: #36648B !important;
 }
