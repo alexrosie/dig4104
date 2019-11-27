@@ -19,13 +19,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-item>a {
-  color: black;
+  color: white;
 }
 
 .navbar {
   -webkit-box-shadow: 0 6px 6px -6px #999;
   -moz-box-shadow: 0 6px 6px -6px #999;
   box-shadow: 0 6px 6px -6px #999;
+  background-color: #36648B;
+  padding: 20px;
 }
 
 #navbar-primary .navbar-nav {
