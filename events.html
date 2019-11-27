@@ -45,23 +45,40 @@
           <h3 style="margin-bottom: 50px;">Countdown to Jeans & Jewels</h3>
         </div>
         <div class="col-md-12 justify-content-center">
-        <span class="circle days"><p id="days" style="display: inline;"></p></span>
-        <span class="circle hours"><p id="hours" style="display: inline;"></p></span>
-        <span class="circle minutes"><p id="minutes" style="display: inline;"></p></span>
-        <span class="circle seconds"><p id="seconds" style="display: inline;"></p></span>
-      </div>
-      <div class="col-md-12 justify-content-center">
-        <span class="circle"><p style="display: inline; font-size: 0.75em;">days</p></span>
-        <span class="circle"><p style="display: inline; font-size: 0.75em;">hours</p></span>
-        <span class="circle"><p style="display: inline; font-size: 0.75em;">minutes</p></span>
-        <span class="circle"><p style="display: inline; font-size: 0.75em;">seconds</p></span>
+          <span class="circle days">
+            <p id="days" style="display: inline;"></p>
+          </span>
+          <span class="circle hours">
+            <p id="hours" style="display: inline;"></p>
+          </span>
+          <span class="circle minutes">
+            <p id="minutes" style="display: inline;"></p>
+          </span>
+          <span class="circle seconds">
+            <p id="seconds" style="display: inline;"></p>
+          </span>
+        </div>
+        <div class="col-md-12 justify-content-center">
+          <span class="circle">
+            <p style="display: inline; font-size: 0.75em;">days</p>
+          </span>
+          <span class="circle">
+            <p style="display: inline; font-size: 0.75em;">hours</p>
+          </span>
+          <span class="circle">
+            <p style="display: inline; font-size: 0.75em;">minutes</p>
+          </span>
+          <span class="circle">
+            <p style="display: inline; font-size: 0.75em;">seconds</p>
+          </span>
 
+        </div>
       </div>
-    </div>
-    <hr class="mx-5">
-    <div class="container py-5">
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23a8b27f&amp;ctz=America%2FNew_York&amp;src=N3F2MzdqamE3MTk0dGxmam5vOWQ0ZTFraDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%235A9A08&amp;color=%231F753C&amp;title=Freedom%20Ride&amp;showCalendars=0&amp;showTabs=1&amp;showDate=1&amp;showPrint=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
+      <hr class="mx-5">
+      <div class="container py-5">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23a8b27f&amp;ctz=America%2FNew_York&amp;src=N3F2MzdqamE3MTk0dGxmam5vOWQ0ZTFraDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%235A9A08&amp;color=%231F753C&amp;title=Freedom%20Ride&amp;showCalendars=0&amp;showTabs=1&amp;showDate=1&amp;showPrint=0"
+          style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
 
   </main>
 
@@ -113,7 +130,7 @@
       <div class="row copyright text-center small px-4 pt-4">
         <p>FREEDOM RIDE IS A 501&copy;3 NON-PROFIT ORGANIZATION. REGISTRATION NUMBER CH12834. A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE, 1-800-435-7352
           WITHIN THE STATE OF FLORIDA. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE.
-        <br><br>&copy Freedom Ride 2019</p>
+          <br><br>&copy;Freedom Ride 2019</p>
       </div>
     </div>
   </footer>
@@ -124,37 +141,37 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script>
-// Set the date we're counting down to
-var countDownDate = new Date("Apr 2, 2020 00:00:00").getTime();
+    // Set the date we're counting down to
+    var countDownDate = new Date("Apr 2, 2020 00:00:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+    // Update the count down every 1 second
+    var x = setInterval(function() {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+      // Get today's date and time
+      var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Output the result in an element with id="demo"
-  document.getElementById("days").innerHTML = days;
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds;
+      // Output the result in an element with id="demo"
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
 
-  // If the count down is over, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
 
 </body>
 
