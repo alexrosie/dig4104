@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .session-cal {
-  background-color: #36648B !important;
+  background-color: #919e5f !important;
 }
 
 .icon {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 
 a:hover {
-  color: #8B9956;
+  color: #B9C46E;
   text-decoration: none;
 }
 
@@ -152,7 +152,6 @@ a:hover {
   padding: 0 10px;
   border: none;
 }
-
 
 
 
